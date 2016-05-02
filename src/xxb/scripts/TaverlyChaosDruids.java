@@ -112,7 +112,7 @@ public class TaverlyChaosDruids extends PollingScript<ClientContext> implements 
 
     @Override
     public void start() {
-        state = ScriptState.KILL_DRUIDS;
+        state = ScriptState.BANK_ITEMS;
 
         // add certain event listeners (mainly used for paint)
         ctx.dispatcher.add((ExperienceListener) evt -> {

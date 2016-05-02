@@ -1,17 +1,10 @@
 package xxb.event.impl;
 
 import org.powerbot.script.rt4.ClientContext;
-import org.powerbot.script.rt4.Game;
 import org.powerbot.script.rt4.Item;
 import xxb.event.EventSource;
 
 import java.util.EventListener;
-
-/**
- * Created with IntelliJ IDEA
- * User: Anthony
- * Date: 11/16/15
- */
 
 public class InventoryItemEventSource implements EventSource<InventoryItemEvent> {
 
